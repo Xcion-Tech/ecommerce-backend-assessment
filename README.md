@@ -70,6 +70,16 @@ updated_rating = ((sales * current_rating) + input_rating ) / (sales + 1)
 2. Increase the price of product once sales go above 100 units  
 3. Automate the creation of products using some CSV stuff. 
 
+#### Submission Guidelines 
+1. Attach postman collection of your APIs so it's easy to test. Place the postman collection in a seperate folder 'postman'
+2. Write a readme whichi instructs how to run the program    
+3. Use SQLite DB so that you can share the database with us on the repo itself.
+4. Create a branch of your name and push the code there 
+5. When your assignment is finished, create a commit "ready for testing" and tag that commit as '1.0.0'. How to tag a commit - https://devconnected.com/how-to-create-git-tags/   
+6. Don't forget to push that tag! 
+7. Write good and awesome code 
+
+
 ### Note: 
 1. Do error handling well, there should be ** No error pages** . Try to handle each case with a message like : "Sorry the item_id doesnt exist' or "Sorry, the item is out of stock".  
 2. Return Status Code as well 
